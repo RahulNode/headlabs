@@ -1,0 +1,44 @@
+.SendMessageInput form {
+    display: flex;
+}
+
+.SendMessageInput input {
+    border: none;
+    box-sizing: border-box;
+    flex-grow: 1;
+    font-size: 24px;
+    height: 50px;
+    padding: 5px 10px;
+}
+
+.SendMessageInput input[disabled]:hover {
+    cursor: not-allowed;
+}
+
+.SendMessageInput button {
+    border: none;
+    box-sizing: border-box;
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 100ms ease-in-out;
+}
+
+.SendMessageInput button.sendButton {
+    background-color: hsl(30, 100%, 66%);
+}
+
+.SendMessageInput button.sendButton:hover {
+    background-color: hsl(30, 100%, 56%);
+    cursor: pointer;
+}
+
+.SendMessageInput button.loginButton {
+    background-color: hsl(113, 100%, 66%);
+}
+
+.SendMessageInput button.loginButton:hover {
+    background-color: hsl(113, 100%, 56%);
+    cursor: pointer;
+}

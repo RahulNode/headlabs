@@ -1,0 +1,93 @@
+ .App {
+  display: flex;
+  min-height: 100vh;
+}
+
+.MainView {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.Separator {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.ModalContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.ModalContent form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ModalContent input {
+  border-top: none;
+  border-right: none;
+  font-size: 18px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+}
+
+.ModalContent button {
+  border: none;
+  box-sizing: border-box;
+  color: #333333;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: all 100ms ease-in-out;
+}
+
+.ModalContent .LoginButton {
+  background-color: hsl(30, 100%, 66%);
+  margin-bottom: 15px;
+}
+
+.ModalContent .LoginButton:hover {
+  background-color: hsl(30, 100%, 56%);
+  cursor: pointer;
+}
+
+.CloseModalButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: hsl(0, 100%, 66%);
+  border: none;
+  box-sizing: border-box;
+  color: #333333;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: all 100ms ease-in-out;
+}
+
+.CloseModalButton:hover {
+  background: hsl(0, 100%, 56%);
+  cursor: pointer;
+}
+
+.successMessage {
+  color: green;
+  position: fixed;
+  z-index: 900;
+  top: 15px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.failureMessage {
+  color: red;
+  position: fixed;
+  z-index: 900;
+  top: 15px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}

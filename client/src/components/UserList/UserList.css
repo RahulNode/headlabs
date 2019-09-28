@@ -1,0 +1,38 @@
+.UserList {
+    align-items: center;
+    background: hsl(0, 100%, 66%);
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+    width: 300px;
+}
+
+.UserList .List {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.UserList .List ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.UserList .List ul li {
+    padding: 20px 15px;
+}
+
+.UserList .List ul li:hover {
+    background-color: hsl(0, 100%, 56%);
+}
+
+.UserList .Info {
+    width: 100%;
+}
+
+.UserList span {
+    display: block;
+    padding: 10px 15px;
+}
